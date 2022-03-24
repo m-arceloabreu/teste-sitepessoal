@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class=" navbar sticky-top navbar-expand-lg navbar-dark bg-1 ">
+        <a class=" navbar-brand font-orbiter font-s30" href="#">M.M.A</a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-color-1 justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link">Projects</a>
+            <a class="nav-link">Contact-me</a>
+          </div>
+        </div>
+      </nav>
+    <!-- /NavBar -->
+
+    <!--HOME-->
+    <div class="container-fluid bg-1 vh-100 d-flex justify-content-around align-items-center flex-column " id="home">
+      <div class=" container pt-5 row">
+        <div class="col-md-9">
+        <h1 class="txt-color-pink display-2 font-weight-bolder">Welcome,<br><span  class="font-weight-normal txt-color-lightblue type-effect" ></span></h1>
+        </div>
+        <div class="col-md-3 ">
+          <img src="/assets/img/fotoMarcelo.jpg" alt="" class="img-fluid rounded-circle neon-blue">
+        </div>
+      </div>
+      <div class="container d-flex justify-content-center pt-5 ">
+          <a class="p-3" href=""><img class="imghome-size" src="assets/img/githubvo.png" alt=""></a>
+          <a class="p-3" href=""><img class="imghome-size" src="assets/img/linkedinvo.png" alt=""></a>
+        
+      </div>
+    </div>
+
+     <!--/HOME-->
+     <!-- About-->
+     <div class="container-fluid  vh-100 bg-2 " id="about">
+       <div class="container vh-100 d-flex flex-column align-items-center justify-content-center">
+       <div class="row pb ">
+        <h1 class="text-center font-size-5 p-2  border rounded neon-pink">About me</h1>
+       </div>
+
+       <div class="row pt-5 ">
+        <div class="col-md-5">
+          
+         </div>
+         <div class="col-md-12 text-justify">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi molestiae voluptatum, eveniet, similique animi libero ipsa rem error fugiat aliquid natus deserunt debitis nihil illo maiores necessitatibus ipsam? Necessitatibus, ullam!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi molestiae voluptatum, eveniet, similique animi libero ipsa rem error fugiat aliquid natus deserunt debitis nihil illo maiores necessitatibus ipsam? Necessitatibus, ullam!</p>
+         </div>
+       </div>
+      </div>
+     </div>
+     <!-- /About-->
+     <!--Skills-->
+     <div class="container-fluid vh-100 bg-1 " id="skills">
+      <div class="container vh-100 d-flex flex-column align-items-center justify-content-center">
+        <div>
+         <h1 class="text-center font-size-5 p-2 txt-color-awhite border rounded neon-blue">Skills</h1>
+        </div>
+
+
+
+
+      </div>         
+    </div>
+
+
+     <!--/Skills-->
+     <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
+     
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          new TypeIt(".type-effect", {
+            speed: 150,
+            loopDelay: [150,3000],
+            lifeLike: true,
+            loop:true
+            
+          })
+          .type("I'm Marcelo!",{delay: 2000})
+          .delete(null,{delay: 1000})
+          .type("u can call me Jesus!",{delay: 2000})
+          .go();
+        });
+      </script>
+
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

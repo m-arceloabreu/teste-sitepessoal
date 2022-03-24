@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/blanka');
+@import url('http://fonts.cdnfonts.com/css/earth-orbiter');
+
+paleta-cores{
+    color: #ff2a6d;
+    color: #d1f7ff;
+    color: #05d9e8;
+    color: #005678;
+    color: #00000c;
+}
+.bg-1{
+    background-color: #00000c;
+}
+.bg-2{
+    background-color: #d1f7ff;;
+}
+.txt-color-pink{
+    color: #ff2a6d;
+}
+.font-s30{
+    font-size: 30px
+}
+.font-size-5{
+    font-size: 5rem;
+}
+.font-orbiter{
+    font-family: 'Earth Orbiter', sans-serif;
+}
+.txt-color-lightblue{
+    
+    color:#05d9e8;
+}
+.txt-color-awhite{
+    color: #d1f7ff;
+}
+.neon-pink{
+    box-shadow: inset 0 0 32px #ff2a6d, 0 0 32px #ff2a6d;
+    text-shadow: 0 0 8px hs1(0 0% 100%/ 0.3), 0 0 32px;
+    position: relative;
+}
+.neon-blue{
+    box-shadow: inset 0 0 32px #05d9e8, 0 0 32px #05d9e8;
+    text-shadow: 0 0 8px hs1(0 0% 100%/ 0.3), 0 0 32px;
+    position: relative;
+}
+
+
+.imghome-size{
+    width: 50px;
+    height: 50px;
+}
+.skill-size{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+  
+ 
